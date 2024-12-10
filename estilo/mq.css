@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background: black url('../imagem-fundo.jpg') no-repeat center bottom;
+        background-size: cover;
+    }
+    #tela-login{
+        width: 90vw;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+    }
+
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #login{
+        float: right;
+        width: 70%;
+    }
+    #tela-login h1{
+        font-size: 3.2em;
+    }
+    #tela-login p{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background: black url('../imagem-fundo.jpg') no-repeat center bottom;
+        background-size: cover;
+    }
+    #tela-login{
+        width: 990px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+    }
+    #imagem{
+        float:right;
+        width: 50%;
+        height: 100%;
+    }
+    #login{
+        float: left;
+        width: 50%;
+    }
+    #tela-login h1{
+        font-size: 3.2em;
+    }
+    #tela-login p{
+        font-size: 1.2em;
+    }
+}
