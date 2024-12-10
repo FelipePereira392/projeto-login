@@ -69,18 +69,19 @@ main{
     font-weight: bolder;
     font-family: 'Bagel Fat One';
     
-    color: #2fd2eb56;
+    color: #00ddff56;
     text-shadow: 1px 1px 1px #0c5a6636;
 }
 
 #login p{
     color:rgba(48, 48, 48, 0.315);
+    margin-bottom: 10px;
 }
 
 form input[type=submit]{
     display: block;
     font-size: 1em;
-    width: 100%;
+    width: 90%;
     height: 40px;
     border:none;
     border-radius: 5px;
@@ -89,8 +90,47 @@ form input[type=submit]{
     background-color: #63C9D7;
     color: white;
     box-shadow: 0px 0px 10px var(--azul2);
+    margin: auto;
 }
 form input[type=submit]:hover{
     color: rgba(0, 0, 0, 0.767);
     background-color: rgba(255, 255, 255, 0.76);
+}
+
+#iEmail, #iSenha{
+    background-color: rgba(255, 255, 255, 0.199);
+    outline: none;
+    border:none;
+    border-radius: 20px;
+    height: 100%;
+    width: 80%;
+    margin: 10px 0px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.123);
+    transform: translateY(-6px);
+}
+
+.botao{
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    display: block;
+    color:rgba(48, 48, 48, 0.315);
+    text-decoration: none;
+    font-weight: bold;
+    margin:5px 0px;
+}
+
+.botao > .material-icons{
+    color:rgba(48, 48, 48, 0.315);
+    transform: translateY(5px);
+}
+
+.botao:hover{
+    text-decoration: underline;
+}
+
+.material-icons{
+    color: white;
 }
